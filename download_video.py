@@ -6,9 +6,9 @@ from datetime import datetime
 
 # Initialize the Reddit instance with environment variables
 reddit = praw.Reddit(
-    client_id=os.environ.get('REDDIT_CLIENT_ID'),
-    client_secret=os.environ.get('REDDIT_CLIENT_SECRET'),
-    user_agent=os.environ.get('REDDIT_USER_AGENT')
+    client_id=os.environ.get('BkTY-vpw82ZuDf3CKoQQwg'),
+    client_secret=os.environ.get('VbOr1BBDCd2bnkL0mkTJ9Z7kah8h_w'),
+    user_agent=os.environ.get('Necessary-Ad9670')
 )
 
 def download_video(url, filename):
