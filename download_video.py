@@ -8,7 +8,7 @@ from appwrite.services.database import Database
 
 # Initialize the Appwrite client
 client = Client()
-client.set_endpoint(os.environ.get('http://localhost/v1'))  # Your Appwrite endpoint
+client.set_endpoint(os.environ.get('https://api.panoapps.com/v1'))  # Your Appwrite endpoint
 client.set_project(os.environ.get('66d8b20b000c13f95e6f'))  # Your Appwrite project ID
 client.set_key(os.environ.get('ceedb7bc0ef5926898d8c4560cd1ef5942842e9919f5a34d0a1ee43ee0c7906430511d8ca7884293c169c4324d8d3534938bc3d2ddd703ef63589509913dc675f9b39b377ba694ddfac49dc2a7cc1455899023bbd3383165f7de987a0e853637b97cf8ea7f17501a4326c6515079dea07e5af438be8742d224d82ae29a978e83'))  # Your Appwrite API key
 
